@@ -218,14 +218,9 @@ em, i {
 		max-width: 95%;
 	}
 
-	footer p {
-		font-size: 1.125rem;
-		font-size: 18px;
-	}
-
 	body {
-		font-size: 1.125rem;
-		font-size: 18px;
+		font-size: 1rem;
+		font-size: 16px;
 		line-height: 1.35;
 		margin: 1rem auto;
 		margin: 16px auto;
@@ -233,16 +228,16 @@ em, i {
 	}
 
 	h1 {
-		font-size: 2.945rem;
-		font-size: 47.123px;
+		font-size: 2.1875rem;
+		font-size: 35px;
 		line-height: 1;
 		margin-bottom: 0.5rem;
 		margin-bottom: 8px;
 	}
 
 	h2 {
-		font-size: 2.5rem;
-		font-size: 40px;
+		font-size: 1.75rem;
+		font-size: 28px;
 		line-height: 1;
 		margin-bottom: 0.625rem;
 		margin-bottom: 10px;
