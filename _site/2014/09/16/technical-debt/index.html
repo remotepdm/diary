@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Diary of a remote product manager" />
+        <title>Technical debt</title>
+        <link rel="stylesheet" type="text/css" href="http://remotepdm.github.io/diary/css/style.css" />
+    </head>
+    <body>
+        <h1>Diary of a remote<br/>product manager</h1>
+        <h2><a class="divider" href="http://remotepdm.github.io/diary">/</a> Technical debt</h2>
+        <h3>16 Sep 2014</h3>
+<p>I&rsquo;ve been thinking a lot about technical debt and the reliability of our systems ever since my lead engineer told me last week that he thought the situation was basically untenable. At first, I tried to chip away at it by allocating a certain number of story points in each sprint to technical debt tickets, and this seemed to be ok for a while, but recently we&rsquo;ve been having a lot of NFS and permissions errors that are completely out of our control and I think it&rsquo;s caused people to start looking around at what else is wrong.</p>
+
+<p>So my lead engineer asked for a whole sprint devoted to working on reliability. Of course I took him seriously, he knows what he&rsquo;s talking about, but my gut reaction was to treat him like any other stakeholder in the project and prioritise his needs against everyone else&rsquo;s. This made sense on one level, but I wasn&rsquo;t happy at the thought of frustrated engineers wasting time with unreliable systems either.</p>
+
+<p>Looking at it again today, though, I could completely see his point of view, this was wasting man hours every single day, or at least he believed that it was. I think that&rsquo;s an important point, even if it doesn&rsquo;t turn out to be the case. If you think you&rsquo;re spending a bunch of time being unproductive that&rsquo;s just going to stress you out. I read <a href="http://www.joelonsoftware.com/items/2012/07/09.html">this article</a> on the train home this evening, and it had a line that happened to resonate:</p>
+
+<blockquote><p><em>The software production process has several major “inventory” accumulation points, itself. Stuff accumulates at those points and ends up wasting a lot of time and money.</em></p></blockquote>
+
+<p>This got me thinking some more about how we could actually measure the impact of work on reliability tickets.</p>
+
+<p>The engineers get thousands of error emails every day, basically rendering the messages useless, so that&rsquo;s a metric we could immediately work on, try to decrease the number of those. But to what end? It&rsquo;s not actually a very useful metric for measuring anything other than quality of life, which is obviously highly subjective. What about something more radical, what about saying: &ldquo;If we really believe that unreliable systems are wasting us man hours, if we work on some of these tickets, then we should see the amount of points we can clear in a sprint increase.&rdquo; That feels like it&rsquo;s actually measuring something important, so I&rsquo;ll bring that up tomorrow and see how it goes down.</p>
+
+<p>Prioritising the tickets is another kettle of fish, though, and it&rsquo;s really difficult for me to do if I don&rsquo;t understand how much pain individual problems are causing. We&rsquo;ve got three separate groupings of these tickets at the moment (&ldquo;Reliability&rdquo;, &ldquo;Technical Debt&rdquo; and &ldquo;Back-end Improvements&rdquo;) and I&rsquo;m not sure anyone has a crystal clear notion of a distinction between them, let alone a good general understanding of their content and which ones are top priority. I&rsquo;m trying to convince my lead engineer to sit down and walk me through them, but he&rsquo;s understandably reticent about another meeting, especially so early in his West Coast day. I don&rsquo;t want to disrupt him or waste his time, but I think I need to persevere with this one.</p>
+
+    </body>
+    <footer>
+    	<p><a href="http://remotepdm.github.io/diary">↩︎</a></p>
+    </footer>
+</html>
